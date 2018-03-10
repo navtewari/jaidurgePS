@@ -39,10 +39,19 @@ class Web extends CI_Controller {
         $this->load->view('features',$data);
         $this->load->view('templates/footer');
     }
-    
-    function gallery() {
+        
+    public function gallery() {
         $data['menu'] = 5;
-        $this->load->view('templates/header');
+        $data['gallery_category'] = $this->mm->get_gallery_category();        
+        $this->load->view('templates/header', $data);
+        $this->load->view('gallery-category',$data);
+        $this->load->view('templates/footer');
+    }
+    
+    public function gallery_detail($id) {
+        $data['menu'] = 5;
+        $data['gallery'] = $this->mm->get_gallery($id);        
+        $this->load->view('templates/header', $data);
         $this->load->view('gallery',$data);
         $this->load->view('templates/footer');
     }
