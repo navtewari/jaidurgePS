@@ -42,7 +42,7 @@
                         <p>Haldwani- 263139, District- Nainital</p>
                         <p>Uttarakhand, India</p>
                         <p>&nbsp;</p>
-                        <p><b>email :</b> <a href="#">jaidurge@gmail.com</p>
+                        <p><b>email :</b> <a href="#">jaidurgeeducationalpublic@gmail.com</p>
                         <p><b>phone :</b> +91-0000000000, +91-0000000000</p>
                     </address>
                 </div>

@@ -79,23 +79,31 @@
                             terrian a really healthy and congenial atmosphere, plans to introduce a new concept and effective technique of education in English medium.</p>
                     </div>
                     <div class="col-md-3 wel_grid">
-                        <img src="<?php echo base_url('assets/images/w1.jpg'); ?>" class="img-responsive" alt=""/>
-                        <h5><a href="#">Our Infrastructure</a></h5>
-                        <p>We continuously try to identify ways to improve student learning as measured on the high stakes standardized assessments mandated by the C.B.S.E .</p>
+                        <a href="<?php echo site_url('web/about'); ?>"><img src="<?php echo base_url('assets/images/w1.jpg'); ?>" class="img-responsive" alt=""/></a>
+                        <h5><a href="<?php echo site_url('web/about'); ?>">Our Infrastructure</a></h5>
+                        <p>We continuously try to identify ways to improve student learning as measured on the high stakes standardized assessments mandated by the Uttarakhand Board (follows CBSE pattern).</p>
                     </div>                        
                     <div class="col-md-3 wel_grid">
-                        <img src="<?php echo base_url('assets/images/w1.jpg'); ?>" class="img-responsive" alt=""/>
-                        <h5><a href="#">Photo Gallery</a></h5>
+                        <a href="<?php echo site_url('web/gallery'); ?>"><img src="<?php echo base_url('assets/images/w2.jpg'); ?>" class="img-responsive" alt=""/></a>
+                        <h5><a href="<?php echo site_url('web/gallery'); ?>">Photo Gallery</a></h5>
                         <p>Here you will find a large collection of some of our best photos to give you a a feel of our School.</p><p><br><a href="<?php echo site_url('web/gallery'); ?>" class="know-more">Know more</a></p>
                     </div>
                     <div class="col-md-3 wel_grid">
-                        <img src="<?php echo base_url('assets/images/w1.jpg'); ?>" class="img-responsive" alt=""/>
-                        <h5><a href="#">Student Activities</a></h5>
+                        <?php if (count($activities) != 0) { ?>
+                                <a href="<?php echo site_url('web/activities'); ?>"><img src="<?php echo base_url('assets/images/w3.jpg'); ?>" class="img-responsive" alt=""/></a></p>
+                        <?php } else { ?>
+                        <img src="<?php echo base_url('assets/images/w3.jpg'); ?>" class="img-responsive" alt=""/>
+                        <?php } ?>     
+                        <?php if (count($activities) != 0) { ?>
+                        <h5><a href="<?php echo site_url('web/activities'); ?>">Student Activities</a></h5>                                
+                        <?php } else { ?>
+                        <h5><a href="#">Student Activities</a></h5>    
+                        <?php } ?>                        
                         <p>It is a great pleasure to share activities conducted by our Kid's. A cool Place for Kids!</p><p><br>
                             <?php if (count($activities) != 0) { ?>
                                 <a href="<?php echo site_url('web/activities'); ?>" class="know-more">Know more</a></p>
                         <?php } else { ?>
-                            <a href="#" class="know-more">Know more</a></p>
+                        <a href="#" class="know-more">Know more</a></p>
                         <?php } ?>
                     </div>                        
                     <div class="col-md-3 wel_grid">

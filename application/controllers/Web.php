@@ -103,7 +103,7 @@ class Web extends CI_Controller {
         $msg = $msg . "<br />";
         $msg = $msg . $this->input->post('txtPhone');
 
-        $to_ = 'navtewari@gmail.com';
+        $to_ = 'jaidurgeeducationalpublic@gmail.com';
         $from_ = $this->input->post('txtemail');
         $name_ = 'Enquiry...';
 

@@ -20,10 +20,10 @@
                 </ul>
                 <p>&nbsp;</p>
                 <h4>Admission Procedure</h4>
-                <p>Jai Durge School follows CBSE (Centeral Board of Secondary Education, New Delhi) Procedure. </p>
+                <p>Jai Durge School follows Uttarakhand Board (follows CBSE pattern). </p>
             </div>
             <div class="col-md-5 video">
-                <img src="<?php echo base_url('assets/images/11.jpg');?>" class="img-responsive">
+                <img src="<?php echo base_url('assets/images/2.jpg');?>" class="img-responsive">
             </div>
             <div class="clearfix"></div>
             <div class="col-md-12 video-info">

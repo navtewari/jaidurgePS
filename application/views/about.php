@@ -10,7 +10,7 @@
         </div>
         <div class="video-grid">
             <div class="col-md-6 video">
-                <img src="<?php echo base_url('assets/images/abt.jpg');?>">
+                <img src="<?php echo base_url('assets/images/abt.jpg');?>" class="img-responsive">
             </div>
             <div class="col-md-6 video-info">                
                 <h4>Learning Environment</h4>
