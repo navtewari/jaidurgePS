@@ -9,7 +9,7 @@
         <div class="video-grid">            
             <div class="col-md-7 video-info">                
                 <p>
-                    The Jai Durge Educational Public School is an English Medium School for boys and girls from Nursery to Class XII. The school is affiliated to the Uttarakhand Board (follows CBSE pattern).<br>
+                    The Jai Durge Educational Public School is for boys and girls from Nursery to Class 8<sup>th</sup>. The school is affiliated to the Uttarakhand Board (follows CBSE pattern).<br>
 We believe that the early education which lays the foundation stone in a child education, is very significant for his/her success in future. So, it must be solid and sound.
 
                 </p>

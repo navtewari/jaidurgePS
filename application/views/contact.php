@@ -38,12 +38,12 @@
                     <h3>Address</h3>
                     <span>Jai Durge Educational Public School</span>
                     <address>                        
-                        <p>Bamori </p>
+                        <p>Damudhunga Panchaki P.O.- Kathgodam</p>
                         <p>Haldwani- 263139, District- Nainital</p>
                         <p>Uttarakhand, India</p>
                         <p>&nbsp;</p>
                         <p><b>email :</b> <a href="#">jaidurgeeducationalpublic@gmail.com</p>
-                        <p><b>phone :</b> +91-0000000000, +91-0000000000</p>
+                        <p><b>phone :</b> +91-8476863333</p>
                     </address>
                 </div>
             </div>	

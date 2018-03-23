@@ -58,7 +58,7 @@ $autoload['packages'] = array();
 |
 |	$autoload['libraries'] = array('user_agent' => 'ua');
 */
-$autoload['libraries'] = array('email', 'session', 'database', 'my_library');
+$autoload['libraries'] = array('database', 'session', 'email', 'My_library');
 
 /*
 | -------------------------------------------------------------------
@@ -125,5 +125,13 @@ $autoload['language'] = array();
 | in the controller:
 |
 |	$autoload['model'] = array('first_model' => 'first');
+
+$autoload['model'] = array(
+	'My_model'=>'mm', 
+	'My_model_activities'=>'mma',
+	'My_model_bday'=>'mmb',
+	'My_model_gallery'=>'mmg',
+	'My_model_newsletter'=>'mmnwl',
+	'My_model_newsevents'=>'mmnws',
+);
 */
-$autoload['model'] = array();
