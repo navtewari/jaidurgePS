@@ -90,32 +90,33 @@
                     </div>
                     <div class="col-md-3 wel_grid">
                         <?php if (count($activities) != 0) { ?>
-                                <a href="<?php echo site_url('web/activities'); ?>"><img src="<?php echo base_url('assets/images/w3.jpg'); ?>" class="img-responsive" alt=""/></a></p>
+                            <a href="<?php echo site_url('web/activities'); ?>"><img src="<?php echo base_url('assets/images/w3.jpg'); ?>" class="img-responsive" alt=""/></a></p>
                         <?php } else { ?>
-                        <img src="<?php echo base_url('assets/images/w3.jpg'); ?>" class="img-responsive" alt=""/>
+                            <img src="<?php echo base_url('assets/images/w3.jpg'); ?>" class="img-responsive" alt=""/>
                         <?php } ?>     
                         <?php if (count($activities) != 0) { ?>
-                        <h5><a href="<?php echo site_url('web/activities'); ?>">Student Activities</a></h5>                                
+                            <h5><a href="<?php echo site_url('web/activities'); ?>">Student Activities</a></h5>                                
                         <?php } else { ?>
-                        <h5><a href="#">Student Activities</a></h5>    
+                            <h5><a href="#">Student Activities</a></h5>    
                         <?php } ?>                        
                         <p>It is a great pleasure to share activities conducted by our Kid's. A cool Place for Kids!</p><p><br>
                             <?php if (count($activities) != 0) { ?>
                                 <a href="<?php echo site_url('web/activities'); ?>" class="know-more">Know more</a></p>
                         <?php } else { ?>
-                        <a href="#" class="know-more">Know more</a></p>
+                            <a href="#" class="know-more">Know more</a></p>
                         <?php } ?>
                     </div>                        
                     <div class="col-md-3 wel_grid">
-                        <img src="<?php echo base_url('assets/images/t3.jpg'); ?>" class="img-responsive" alt=""/>
-                        <h5><a href="#">Happy Birthday</a></h5>
+
                         <?php if (count($bday) != 0) { ?>
                             <p>
                                 <?php $this->load->view('templates/bday'); ?>
                             </p>
                         <?php } else { ?>
-                            <p align="center">Wishing you a Happy Birthday.</p> <p align="center">May GOD bless you all the days you live.</p>
-                        <?php } ?>
+                            <img src="<?php echo base_url('assets/images/t3.jpg'); ?>" class="img-responsive" alt="">
+                            <h5><a href="#">Happy Birthday</a></h5>
+                            <p align="center">No Birthday This Week.</p> 
+                        <?php } ?>                        
                     </div>
                     <div class="clearfix"></div>                       
                 </div>                    
